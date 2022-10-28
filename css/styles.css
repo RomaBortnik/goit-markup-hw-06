@@ -966,14 +966,14 @@ Advantages */
     fill: #fff;
 
     transition: background-color 250ms var(--transform-effect),
-    border 250ms var(--transform-effect);
+    border-width 250ms var(--transform-effect);
     
     pointer-events: none;
 }
 
 .checkbox:checked + .policy-icon {
     background-color: var(--secondary-color);
-    border: none;
+    border-width: 0;
 }
 
 .form-label.policy {
